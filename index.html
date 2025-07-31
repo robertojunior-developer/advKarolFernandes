@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advogado - Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4c8e1d2b7f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header-bar">
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo da Empresa">
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#atuacao">Área de Atuação</a></li>
+                <li><a href="#faq">Dúvidas Frequentes</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+    <header id="inicio">
+        <div class="hero">
+            <img src="images/001.jpg" alt="Advogado" class="hero-img">
+            <div class="hero-content">
+    <img src="images/Junior.jpg" alt="Foto do Advogado" class="advogado-foto">
+                <h1>Dr. Marcos Junior Dantas</h1>
+                <h2>Advocacia Especializada em Direito Cível, Previdenciário e Bancário</h2>
+                <a href="#contato" class="btn-destaque">Agende uma Consulta</a>
+            </div>
+        </div>
+        
+    </header>
+    <main>
+        <section id="sobre" class="section">
+            <div class="container">
+                <h2><i class="fas fa-user-tie"></i> Sobre</h2>
+                <p>Com sólida experiência, Dr. Marcos Junior Dantas atua de forma ética, transparente e dedicada, buscando sempre a melhor solução jurídica para seus clientes. Especialista em Direito Cível, Previdenciário e Bancário, alia conhecimento técnico à sensibilidade para entender as necessidades de cada caso. Seu compromisso é oferecer atendimento personalizado, com foco na excelência e na defesa dos direitos de seus clientes.</p>
+            </div>
+        </section>
+        <section id="atuacao" class="section">
+            <div class="container">
+                <h2><i class="fas fa-balance-scale"></i> Área de Atuação</h2>
+                <ul class="atuacao-lista">
+    <li>
+        <span class="atuacao-icone"><img src="images/02.png" alt="Área de Atuação" class="atuacao-img"></span>
+        <span class="atuacao-texto">
+            <strong>Direito Cível</strong><br>
+            <span class="desc">Atuação em processos de indenização, contratos, cobranças, responsabilidade civil e consultoria preventiva.</span>
+        </span>
+    </li>
+    <li>
+        <span class="atuacao-icone"><img src="images/02.png" alt="Área de Atuação" class="atuacao-img"></span>
+        <span class="atuacao-texto">
+            <strong>Direito Previdenciário</strong><br>
+            <span class="desc">Aposentadorias, revisões de benefícios, auxílio-doença, planejamento previdenciário e defesa administrativa e judicial junto ao INSS.</span>
+        </span>
+    </li>
+    <li>
+        <span class="atuacao-icone"><img src="images/02.png" alt="Área de Atuação" class="atuacao-img"></span>
+        <span class="atuacao-texto">
+            <strong>Direito Bancário</strong><br>
+            <span class="desc">Defesa em ações de cobrança, revisão de contratos bancários, negociação de dívidas, busca e apreensão e proteção do consumidor bancário.</span>
+        </span>
+    </li>
+</ul>
+            </div>
+        </section>
+        <section id="faq" class="section">
+            <div class="container">
+                <h2><i class="fas fa-question-circle"></i> Dúvidas Frequentes</h2>
+                <div class="faq-item">
+    <button class="faq-question">Como funciona a primeira consulta?</button>
+    <div class="faq-answer">Na primeira consulta, ouvimos atentamente seu caso, orientamos sobre os direitos e possíveis caminhos jurídicos, além de esclarecer dúvidas iniciais.</div>
+</div>
+<div class="faq-item">
+    <button class="faq-question">O atendimento pode ser online?</button>
+    <div class="faq-answer">Sim, realizamos atendimentos presenciais e online, garantindo comodidade e segurança para nossos clientes em qualquer lugar do Brasil.</div>
+</div>
+<div class="faq-item">
+    <button class="faq-question">Quanto tempo demora um processo?</button>
+    <div class="faq-answer">O prazo depende da complexidade do caso e do Tribunal responsável, mas sempre mantemos nossos clientes informados sobre cada etapa do processo.</div>
+</div>
+<div class="faq-item">
+    <button class="faq-question">Quais áreas do Direito o escritório atende?</button>
+    <div class="faq-answer">Atuamos em Direito Cível, Previdenciário e Bancário, oferecendo soluções completas e personalizadas.</div>
+</div>
+            </div>
+        </section>
+        <section id="contato" class="section">
+            <div class="container">
+                <h2><i class="fas fa-envelope"></i> Contato</h2>
+                <form id="contato-form">
+                    <input type="text" name="nome" placeholder="Seu nome" required>
+                    <input type="email" name="email" placeholder="Seu e-mail" required>
+                    <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+                    <button type="submit" class="btn-destaque">Enviar</button>
+                </form>
+                <div class="contato-info">
+    <p><img src="images/telefone.png" alt="Telefone" style="height:1em;vertical-align:middle;"> (61) 99612-3822</p>
+    <p><img src="images/endereco.png" alt="Endereço" style="height:1em;vertical-align:middle;"> Etapa A, Valparaíso/GO</p>
+    <p><img src="images/email.png" alt="E-mail" style="height:1em;vertical-align:middle;"> contato@advogado.com.br</p>
+    <div class="redes-sociais" style="margin-top:1em;">
+      <a href="#" title="Instagram"><img src="images/instagram.png" alt="Instagram" style="height:1em;vertical-align:middle;"></a>
+      <a href="#" title="Facebook"><img src="images/facebook.png" alt="Facebook" style="height:1em;vertical-align:middle; margin-left: 10px;"></a>
+      <a href="#" title="LinkedIn"><img src="images/linkedin.png" alt="LinkedIn" style="height:1em;vertical-align:middle; margin-left: 10px;"></a>
+    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Dr. Marcos Dantas Junior. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
