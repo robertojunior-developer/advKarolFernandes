@@ -34,3 +34,13 @@ document.getElementById('contato-form').addEventListener('submit', function(e) {
     alert('Mensagem enviada! Em breve entraremos em contato.');
     this.reset();
 });
+
+// Efeito de scroll no cabeçalho
+document.addEventListener('scroll', () => {
+    const header = document.querySelector('.header-bar');
+    if (window.scrollY > 50) {
+        header.classList.add('scrolled');
+    } else {
+        header.classList.remove('scrolled');
+    }
+});
